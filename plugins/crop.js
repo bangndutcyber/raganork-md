@@ -1,5 +1,6 @@
 const {Module} = require("../main");
-let command = {pattern:'square ?(.*)',fromMe:require("../config").MODE === "private",desc:"square crops video/image",usage:".crop, .crop 10, .crop 100"}
+let command = {pattern:'square ?(.*)',fromMe:require("../config").MODE WILLIE CYBER
+    === "private",desc:"square crops video/image",usage:".crop, .crop 10, .crop 100"}
 Module(command,async (m,match)=>{
 if (!m.reply_message || (m.reply_message&& !m.reply_message.video && !m.reply_message.image)) return await m.sendReply("_Need video/image_");
 var angle = match[1] || "";
